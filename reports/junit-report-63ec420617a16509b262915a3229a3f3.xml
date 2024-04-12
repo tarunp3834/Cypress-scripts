@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.095000000000001" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-04-09T17:13:16" tests="0" file="cypress\integration\examples\utilities.spec.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Utilities" timestamp="2024-04-09T17:13:16" tests="6" failures="1" time="6.095000000000001">
+    <testcase name="Utilities Cypress._ - call a lodash method" time="2.223" classname="Cypress._ - call a lodash method">
+    </testcase>
+    <testcase name="Utilities Cypress.$ - call a jQuery method" time="0.653" classname="Cypress.$ - call a jQuery method">
+    </testcase>
+    <testcase name="Utilities Cypress.Blob - blob utilities and base64 string conversion" time="0.898" classname="Cypress.Blob - blob utilities and base64 string conversion">
+    </testcase>
+    <testcase name="Utilities Cypress.minimatch - test out glob patterns against strings" time="0.799" classname="Cypress.minimatch - test out glob patterns against strings">
+    </testcase>
+    <testcase name="Utilities Cypress.moment() - format or parse dates using a moment method" time="0" classname="Cypress.moment() - format or parse dates using a moment method">
+      <failure message="Timed out retrying: Expected to find element: `.utility-moment`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `.utility-moment`, but never found it.
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\integration\examples\utilities.spec.js:66:8)]]></failure>
+    </testcase>
+    <testcase name="Utilities Cypress.Promise - instantiate a bluebird promise" time="1.522" classname="Cypress.Promise - instantiate a bluebird promise">
+    </testcase>
+  </testsuite>
+</testsuites>

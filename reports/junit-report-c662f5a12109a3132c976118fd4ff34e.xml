@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.226" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-04-09T17:12:28" tests="0" file="cypress\integration\examples\spies_stubs_clocks.spec.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Spies, Stubs, and Clock" timestamp="2024-04-09T17:12:28" tests="5" failures="0" time="5.226">
+    <testcase name="Spies, Stubs, and Clock cy.spy() - wrap a method in a spy" time="0.834" classname="cy.spy() - wrap a method in a spy">
+    </testcase>
+    <testcase name="Spies, Stubs, and Clock cy.spy() retries until assertions pass" time="2.677" classname="cy.spy() retries until assertions pass">
+    </testcase>
+    <testcase name="Spies, Stubs, and Clock cy.stub() - create a stub and/or replace a function with stub" time="0.303" classname="cy.stub() - create a stub and/or replace a function with stub">
+    </testcase>
+    <testcase name="Spies, Stubs, and Clock cy.clock() - control time in the browser" time="0.768" classname="cy.clock() - control time in the browser">
+    </testcase>
+    <testcase name="Spies, Stubs, and Clock cy.tick() - move time in the browser" time="0.644" classname="cy.tick() - move time in the browser">
+    </testcase>
+  </testsuite>
+</testsuites>

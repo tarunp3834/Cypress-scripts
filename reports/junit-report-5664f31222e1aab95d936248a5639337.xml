@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.355" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-04-09T17:11:22" tests="0" file="cypress\integration\examples\misc.spec.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Misc" timestamp="2024-04-09T17:11:22" tests="4" failures="0" time="5.626">
+    <testcase name="Misc .end() - end the command chain" time="2.125" classname=".end() - end the command chain">
+    </testcase>
+    <testcase name="Misc cy.exec() - execute a system command" time="1.741" classname="cy.exec() - execute a system command">
+    </testcase>
+    <testcase name="Misc cy.focused() - get the DOM element that has focus" time="1.215" classname="cy.focused() - get the DOM element that has focus">
+    </testcase>
+    <testcase name="Misc cy.wrap() - wrap an object" time="0.545" classname="cy.wrap() - wrap an object">
+    </testcase>
+  </testsuite>
+  <testsuite name="Cypress.Screenshot" timestamp="2024-04-09T17:11:29" tests="2" failures="0" time="2.729">
+    <testcase name="Misc Cypress.Screenshot cy.screenshot() - take a screenshot" time="2.128" classname="cy.screenshot() - take a screenshot">
+    </testcase>
+    <testcase name="Misc Cypress.Screenshot Cypress.Screenshot.defaults() - change default config of screenshots" time="0.601" classname="Cypress.Screenshot.defaults() - change default config of screenshots">
+    </testcase>
+  </testsuite>
+</testsuites>

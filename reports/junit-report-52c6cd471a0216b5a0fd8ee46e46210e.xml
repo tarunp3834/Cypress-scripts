@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.633000000000001" tests="7" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-04-09T17:11:53" tests="0" file="cypress\integration\examples\network_requests.spec.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Network Requests" timestamp="2024-04-09T17:11:53" tests="7" failures="1" time="8.633000000000001">
+    <testcase name="Network Requests cy.server() - control behavior of network requests and responses" time="1.439" classname="cy.server() - control behavior of network requests and responses">
+    </testcase>
+    <testcase name="Network Requests cy.request() - make an XHR request" time="2.241" classname="cy.request() - make an XHR request">
+    </testcase>
+    <testcase name="Network Requests cy.request() - verify response using BDD syntax" time="1.604" classname="cy.request() - verify response using BDD syntax">
+    </testcase>
+    <testcase name="Network Requests cy.request() with query parameters" time="1.007" classname="cy.request() with query parameters">
+    </testcase>
+    <testcase name="Network Requests cy.request() - pass result to the second request" time="1.223" classname="cy.request() - pass result to the second request">
+    </testcase>
+    <testcase name="Network Requests cy.request() - save response in the shared test context" time="1.119" classname="cy.request() - save response in the shared test context">
+    </testcase>
+    <testcase name="Network Requests cy.route() - route responses to matching requests" time="0" classname="cy.route() - route responses to matching requests">
+      <failure message="expected { Object (name, email, ...) } to have property &apos;name&apos; of &apos;Using POST in cy.route()&apos;, but got &apos;Using POST in cy.intercept()&apos;" type="AssertionError"><![CDATA[AssertionError: expected { Object (name, email, ...) } to have property 'name' of 'Using POST in cy.route()', but got 'Using POST in cy.intercept()'
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\integration\examples\network_requests.spec.js:145:40)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
